@@ -276,7 +276,6 @@ namespace SocketSingleThread
             button_Accpet.Enabled = true;
             richTextBox_Receive.Text += DateTime.Now.ToString(KTimeFormat);
             richTextBox_Receive.Text += KOneSpace + KServerClosed + KNewN;
-            MessageBox.Show(KServerClosed);
         }
         #endregion
 
@@ -297,6 +296,8 @@ namespace SocketSingleThread
         }
         #endregion
 
+
+        #region Update the client list
         /// <summary>
         /// Disconnect
         /// </summary>
@@ -319,5 +320,7 @@ namespace SocketSingleThread
             }
 
         }
+        #endregion
+
     }
 }

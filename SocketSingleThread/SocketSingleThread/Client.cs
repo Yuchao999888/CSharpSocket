@@ -140,7 +140,6 @@ namespace SocketSingleThread
                 SFlag = 0;
                 richTextBox_Receive.Text += DateTime.Now.ToString(KTimeFormat);
                 richTextBox_Receive.Text += KUserClientClose + KNewN;
-                MessageBox.Show(KConnectionClose);
             }
         }
         #endregion
