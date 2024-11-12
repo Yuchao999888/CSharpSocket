@@ -224,7 +224,7 @@ namespace SocketSingleThread
         {
 
         }
-        #region 向客户端发送数据
+        #region Send data to the user client
         private void button_Send_Click(object sender, EventArgs e)
         {
             var i = comBox_Clients.SelectedIndex;
